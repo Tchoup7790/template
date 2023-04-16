@@ -1,0 +1,16 @@
+@font-face {
+    font-family: nom;
+    src: url("../fonts/nom.otf");
+  }
+
+@import "./Utils/colors";
+@import "./Utils/mixin";
+  
+@import "./Base/base";
+@import "./Base/typo";
+  
+@import "./Layout/nav";
+@import "./Layout/footer";
+@import "./Layout/header";
+  
+@import "./Pages/index";

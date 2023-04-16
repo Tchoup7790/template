@@ -1,0 +1,18 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "SCSS compiler",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node index.js ../public/scss:../public/css/style.css"
+  },
+  "author": "Thomas",
+  "license": "ISC",
+  "debug": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "glob": "^9.3.4",
+    "node-sass": "^8.0.0",
+    "path": "^0.12.7"
+  }
+}
