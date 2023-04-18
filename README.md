@@ -14,8 +14,7 @@ Télécharge le .zip
 
 
 ## Au cas où
-` "sass": "sass ./sass/main.scss:./public/css/style.css -w --style expanded ` - pour compiler le scss
-
+` "sass": "sass ./public/scss/main.scss:./public/css/style.css --style expanded ` - pour compiler le scss
 
 ` "prefix": "postcss ./public/css/style.css --use autoprefixer -d./public/css/prefixed/"`
 
