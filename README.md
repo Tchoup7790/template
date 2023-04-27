@@ -6,7 +6,11 @@ Télécharger le .zip
 
 `npm install` - Installer les dépendances 
 
-`npm init` - Initialisé le projet  
+`npm init -y` - Initialisé le projet  
+
+`npm install -g parcel-bundler` - Installer parcel
+
+`parcel index.html` - Lancer LocalHost
 
 ## Au cas où
 ### Quelques cmd
@@ -15,6 +19,8 @@ Télécharger le .zip
 ` "prefix": "postcss ./public/css/style.css --use autoprefixer -d./public/css/prefixed/"`
 
 ` "browserslist": "last 4 versions"` - pour transformé le css en css utilisable par tout les navigateurs
+
+`parcel build index.html`- Build avant mise en ligne
 
 ### Quelques lib
 `npm install animate.css --save`- Ajout de la lib animate.css
