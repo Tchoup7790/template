@@ -1,14 +1,14 @@
 {
-  "name": "",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "my-project",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-     "sass": "sass ./public/scss/main.scss:./public/css/style.css --style expanded",
-     "prefix": "postcss ./public/css/style.css --use autoprefixer -d./public/css/prefixed/",
-     "build": "parcel build index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
-    "author": "Tchoup7790",
-    "license": "ISC",
-    "browserslist": "last 4 versions"
+  "author": "Tchoup7790",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  }
 }

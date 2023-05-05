@@ -8,19 +8,15 @@ Télécharger le .zip
 
 `npm init -y` - Initialisé le projet  
 
-`npm install -g parcel-bundler` - Installer parcel
+`npm install --save-dev parcel` - Installer parcel
 
-`parcel index.html` - Lancer LocalHost
+`npm start` - lancer parcel
 
 ## Au cas où
 ### Quelques cmd
 ` "sass": "sass ./public/scss/main.scss:./public/css/style.css --style expanded ` - pour compiler le scss
 
-` "prefix": "postcss ./public/css/style.css --use autoprefixer -d./public/css/prefixed/"`
-
-` "browserslist": "last 4 versions"` - pour transformé le css en css utilisable par tout les navigateurs
-
-`parcel build index.html`- Build avant mise en ligne
+`npm build` - build parcel
 
 ### Quelques lib
 `npm install animate.css --save`- Ajout de la lib animate.css
