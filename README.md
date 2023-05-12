@@ -19,10 +19,6 @@ Télécharger le .zip
 `npm build` - build parcel
 
 ### Quelques lib
-`npm install animate.css --save`- Ajout de la lib animate.css
-
-`import 'animate.css';` - import dans le fichier scss de animate.css
-
 `npm install animejs --save`- Ajout de la lib anime js
 
 `import anime from 'animejs/lib/anime.es.js';`- import dans le fichier ts de anime js
