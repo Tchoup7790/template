@@ -25,4 +25,15 @@ Télécharger le .zip
 
 `npm install animejs --save`- Ajout de la lib anime js
 
-`import anime from 'animejs/lib/anime.es.js';`- import dans le fichier js de anime js
+`import anime from 'animejs/lib/anime.es.js';`- import dans le fichier ts de anime js
+
+`npm install gsap --save`- Ajout de la lib gsap
+
+`import gsap from 'gsap';`- import dans le fichier ts de gsap
+
+`npm install swipe --save`- Ajout de la lib gsap
+
+`import Swiper from 'swiper';`- import dans le fichier ts de swiper
+
+`npm install aos --save`- Ajout de la lib aos
+
