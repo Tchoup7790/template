@@ -4,34 +4,52 @@
 
 Télécharger le .zip 
 
-`npm i` - Installer les dépendances 
+`yarn i` - Installer les dépendances 
 
-`npm init -y` - Initialisé le projet  
+`yarn init -y` - Initialisé le projet  
 
-`npm i parcel` - Installer parcel
+`yarn add --dev parcel` - Installer parcel
 
-`npm i @types/node`- Add node type
+`yarn add @types/node`- Add node type
 
-`npm start` - Lancer parcel
+`yarn start` - Lancer parcel
 
 ## Au cas où
 ### Quelques cmd
 ` "sass": "sass ./public/scss/main.scss:./public/css/style.css --style expanded ` - pour compiler le scss
 
-`npm build` - build parcel
+`yarn build` - build parcel
 
 ### Quelques lib
-`npm add animejs --save`- Ajout de la lib anime js
+`yarn add animejs`- Ajout de la lib anime js
 
-`npm add @types/animejs` - install pour le ts
+`yarn add @types/animejs` - animejs pour le ts
 
 `import anime from 'animejs';`- import dans le fichier ts de anime js
 
-`npm add gsap --save`- Ajout de la lib gsap
+`yarn add gsap`- Ajout de la lib gsap
+
+`yarn add @types/gsap`- gsap pour le ts
 
 `import gsap from 'gsap';`- import dans le fichier ts de gsap
 
-`<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>`- Ajout de la lib swiper dans html
+`yarn add swiper`- Ajout de la lib swiper
 
-`npm add aos --save`- Ajout de la lib aos
+`yarn add @types/swiper `- swiper pour le ts
+
+`import swiper from 'swiper';`- import dans le fichier ts de swiper
+
+`yarn add aos` - Ajout de la lib aos
+
+`yarn add @types/aos`- aos pour le ts
+
+`import swiper from 'aos';`- import dans le fichier ts de aos
+
+`yarn add hammerjs ` - Ajout de la lib hammerjs
+
+`yarn add @types/hammerjs `- hammerjs pour le ts
+
+`import swiper from 'hammerjs';`- import dans le fichier ts de hammerjs
+
+
 
