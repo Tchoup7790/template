@@ -4,32 +4,32 @@
 
 Télécharger le .zip 
 
-`npm install` - Installer les dépendances 
+`yarn install` - Installer les dépendances 
 
-`npm init -y` - Initialisé le projet  
+`yarn init -y` - Initialisé le projet  
 
-`npm install --save-dev parcel` - Installer parcel
+`yarn add --dev parcel` - Installer parcel
 
-`npm start` - lancer parcel
+`yarn start` - Lancer parcel
 
 ## Au cas où
 ### Quelques cmd
 ` "sass": "sass ./public/scss/main.scss:./public/css/style.css --style expanded ` - pour compiler le scss
 
-`npm build` - build parcel
+`yarn build` - build parcel
 
 ### Quelques lib
-`npm install animejs --save`- Ajout de la lib anime js
+`yarn add animejs --save`- Ajout de la lib anime js
 
-`import anime from 'animejs/lib/anime.es.js';`- import dans le fichier ts de anime js
+`yarn add @types/animejs` - install pour le ts
 
-`npm install gsap --save`- Ajout de la lib gsap
+`import anime from 'animejs';`- import dans le fichier ts de anime js
+
+`yarn add gsap --save`- Ajout de la lib gsap
 
 `import gsap from 'gsap';`- import dans le fichier ts de gsap
 
-`npm install swipe --save`- Ajout de la lib gsap
+`<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>`- Ajout de la lib swiper dans html
 
-`import Swiper from 'swiper';`- import dans le fichier ts de swiper
-
-`npm install aos --save`- Ajout de la lib aos
+`yarn add aos --save`- Ajout de la lib aos
 
