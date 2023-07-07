@@ -7,6 +7,11 @@
 out/
 local.properties
 
+# GRADLE Ignores #
+##################
+build
+.gradle/
+
 # Generic Android ignores #
 ###########################
 bin/
